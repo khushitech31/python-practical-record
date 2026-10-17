@@ -474,4 +474,7 @@ p.display()
 **Output:**
 
 ```text
-3
+3D coordinates(2,3,4)
+```
+---
+
