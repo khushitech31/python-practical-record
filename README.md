@@ -478,3 +478,30 @@ p.display()
 ```
 ---
 
+## Practical 15 – Exception Handling for a Name
+
+**Problem Statement:** Write a Python program to accept a name and handle an exception if the name is empty.
+
+**Code:**
+
+```python
+try:
+    name = input("Enter your name: ").strip()
+
+    if not name:
+        raise ValueError("Name cannot be empty")
+
+    print("Hello,", name)
+
+except ValueError as e:
+    print("Error:", e)
+```
+
+**Output:**
+
+```text
+Enter your name: Khushi
+Hello, Khushi
+```
+
+---
