@@ -39,3 +39,31 @@ python filename.py
 13. Class Point2D
 14. Inheritance: Class Point3D
 15. Exception Handling for a Name
+
+
+##  **Practical 01 - Roots of a Quadratic Equation**
+Problem: Write a program to find the roots of a quadratic equation.
+
+**Code**
+
+import math
+
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
+
+if a == 0:
+    print("Not a quadratic equation")
+else:
+    d = b**2 - 4*a*c
+
+    if d > 0:
+        r1 = (-b + math.sqrt(d)) / (2*a)
+        r2 = (-b - math.sqrt(d)) / (2*a)
+        print("Two distinct real roots:", r1, "and", r2)
+    elif d == 0:
+        print("Equal roots:", -b / (2*a))
+    else:
+        real = -b / (2*a)
+        imag = math.sqrt(-d) / abs(2*a)
+        print(f"Complex roots: {real} ± {imag}i")
