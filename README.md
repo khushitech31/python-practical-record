@@ -20,3 +20,22 @@
 
 ```bash
 python filename.py
+```
+
+## **CONTENT**
+
+1. Roots of a Quadratic Equation
+2. Prime Numbers
+3. Star Pyramids
+4. Character Classification
+5. String Operations
+6. Swap Prefixes of Two Strings
+7. Substring Indices
+8. Cubes of Even Integers
+9. File Handling
+10. Dictionary of Cubes
+11. Tuple Operations
+12. Employee Class and Object Counting
+13. Class Point2D
+14. Inheritance: Class Point3D
+15. Exception Handling for a Name
