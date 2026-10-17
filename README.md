@@ -44,8 +44,9 @@ python filename.py
 ##  **Practical 01 - Roots of a Quadratic Equation**
 Problem: Write a program to find the roots of a quadratic equation.
 
-**Code**
+**Code:**
 
+```python
 import math
 
 a = float(input("Enter a: "))
@@ -65,5 +66,6 @@ else:
         print("Equal roots:", -b / (2*a))
     else:
         real = -b / (2*a)
-        imag = math.sqrt(-d) / abs(2*a)
+        imag = math.sqrt(-d) / (2*a)
         print(f"Complex roots: {real} ± {imag}i")
+```
