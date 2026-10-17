@@ -69,3 +69,11 @@ else:
         imag = math.sqrt(-d) / (2*a)
         print(f"Complex roots: {real} ± {imag}i")
 ```
+**Output:**
+
+```text
+Enter a: 1
+Enter b: -5
+Enter c: 6
+Two distinct real roots: 3.0 and 2.0
+```
